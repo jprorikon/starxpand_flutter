@@ -98,9 +98,6 @@ public class SwiftStarxpandPlugin: NSObject, FlutterPlugin {
         let document = args["document"] as! [String:Any?]
         let contents = document["contents"] as! Array<[String:Any?]>
 
-        print("接続タイムアウト:"+printer.openTimeout)
-        print("印刷タイムアウト:"+printer.printTimeout)
-
         Task {
             do {
                 try await printer.open()

@@ -94,6 +94,7 @@ StarXpand.printDocument(printer, doc);
 
 ```dart
 StarXpand.findPrinters(interfaces, timeout, callback);
+StarXpand.findPrinters(interfaces, timeout);
 
 StarXpand.openDrawer(printer);
 StarXpand.printDocument(printer, document);

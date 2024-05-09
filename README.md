@@ -92,11 +92,9 @@ StarXpand.printDocument(printer, doc);
 
 ## Available APIs
 
-
-wwww
-
 ```dart
 StarXpand.findPrinters(interfaces, timeout, callback);
+StarXpand.findPrinters(interfaces, timeout);
 
 StarXpand.openDrawer(printer);
 StarXpand.printDocument(printer, document);
